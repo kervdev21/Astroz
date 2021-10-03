@@ -4,7 +4,7 @@ import { useRouter } from 'next/router';
 
 
 function discovery() {
-    const { authUser, loading } = useAuth();
+    
   const router = useRouter();
   // Listen for changes on loading and authUser, redirect if needed
   
