@@ -22,17 +22,17 @@ function Header() {
             you with those that are more compatible with your sign
           </p>
         </div>
-        <div className="flex flex-col lg:ml-28 items-center md:flex-row">
+        <div className="flex justify-betweeen space-x-8 ml-12 lg:flex-col lg:ml-28 items-center md:flex-row">
           <a
             href="/"
-            className="inline-flex items-center justify-center btnFont w-full h-12 px-6 mb-3 font-medium tracking-wide text-black transition duration-200 rounded shadow-md md:w-auto md:mr-4 md:mb-0 bg-white hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+            className="inline-flex items-center justify-center btnFont lg:w-full  h-12 px-6 mb-3 font-medium tracking-wide text-black transition duration-200 rounded shadow-md md:w-auto md:mr-4 md:mb-0 bg-white hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
           >
             Sign Up
           </a>
           <a
             href="/"
             aria-label=""
-            className="inline-flex items-center font-semibold btnFont text-black justify-center w-full h-12 px-6 mb-3 font-medium tracking-wide transition duration-200 rounded shadow-md md:w-auto md:mr-4 md:mb-0 bg-white hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+            className="inline-flex items-center font-semibold btnFont text-black justify-center lg:w-full h-12 px-6 mb-3 font-medium tracking-wide transition duration-200 rounded shadow-md md:w-auto md:mr-4 md:mb-0 bg-white hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
           >
             Sign In
           </a>
